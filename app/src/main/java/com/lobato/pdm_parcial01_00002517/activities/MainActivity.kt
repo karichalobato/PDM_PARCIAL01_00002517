@@ -1,10 +1,11 @@
-package com.lobato.pdm_parcial01_00002517
+package com.lobato.pdm_parcial01_00002517.activities
 
 import android.os.Bundle
 import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity;
 import android.view.Menu
 import android.view.MenuItem
+import com.lobato.pdm_parcial01_00002517.R
 
 import kotlinx.android.synthetic.main.activity_main.*
 
