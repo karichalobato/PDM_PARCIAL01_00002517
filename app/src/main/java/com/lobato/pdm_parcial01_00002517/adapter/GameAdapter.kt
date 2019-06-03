@@ -18,8 +18,7 @@ abstract class GameAdapter internal constructor(
     abstract fun addListener(holder: GameViewHolder, team1: String, team2: String, point1: Int, point2: Int)
 
     private val inflater: LayoutInflater = LayoutInflater.from(context)
-    private var games = emptyList<Game>() // Cached copy of words
-
+    private var games = emptyList<Game>()
     inner class GameViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val team1: TextView = itemView.findViewById(R.id.tv_team1)
         val team2: TextView = itemView.findViewById(R.id.tv_team2)
